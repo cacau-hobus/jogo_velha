@@ -2,7 +2,7 @@ import Square from "./square";
 
 export default function () {
     return (
-        <div style={{ display: 'flex' }}>
+        <div className="board">
             <div className="board-row">
                 <Square></Square>
                 <Square></Square>

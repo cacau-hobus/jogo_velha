@@ -7,7 +7,7 @@ export default function () {
 
     function click(index) {
         const tempSquares = squares.slice();
-        tempSquares[index] = 'X';
+        tempSquares[index] = 'O';
         setSquares(tempSquares);
         console.log("Clicou aqui!!", squares[index]);
     }
